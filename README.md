@@ -14,7 +14,7 @@ Every changed perk, add-on and item has its description updated to the new numbe
 
 ## Install
 
-1. Download the `.pak` from the [latest release](../../releases/latest). GitHub replaces the brackets in the file name with dots, so **rename it to `pakchunk9999(perktweaks)-WindowsNoEditor.pak`**.
+1. Download `Perktweaks-1.0.0.zip` from the [latest release](../../releases/latest) and unzip it. It contains `pakchunk9999(perktweaks)-WindowsNoEditor.pak`, the file name must stay exactly like that.
 2. Close the game and copy the file into `DeadByDaylight\Content\Paks\`.
 3. Start the game. To uninstall, delete the file.
 
