@@ -179,7 +179,7 @@ Perks named like `K29P02` / `S36P02` are the game's internal names for perks I c
 
 ## Killer powers
 
-Values in each killer's power data table (all buffs). The Ghoul (K29) changes replace what the ASI used to apply.
+Values in each killer's power data table (all buffs). The Mastermind (K29, Albert Wesker) is listed here too.
 
 | Killer | Value | Change |
 |---|---|---|
@@ -266,8 +266,8 @@ Values in each killer's power data table (all buffs). The Ghoul (K29) changes re
 | Doctor | ShockTherapy_Range | 1070 -> 1284 |
 | Doctor | StaticBlast_Cooldown | 60 -> 48 |
 | HillBilly | ChainsawHeatMaxCharge | 100 -> 120 |
-| K29 (The Ghoul) | RushChargeTime | 1.5 -> 1.4 (Bound charge time 1.5 s -> 1.4 s) |
-| K29 (The Ghoul) | RushVaultCooldownDuration | 1.5 -> 1.3 (Window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s) |
+| K29 (The Mastermind) | RushChargeTime | 1.5 -> 1.4 (Bound charge time 1.5 s -> 1.4 s) |
+| K29 (The Mastermind) | RushVaultCooldownDuration | 1.5 -> 1.3 (Window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s) |
 | Shape | BaseStalkMaxRange | 3985 -> 4782 |
 | Shape | BaseStalkRateAtMaxRange | 0.1 -> 0.12 |
 | Shape | KillerSight_ScreenVisibilityZoneRadiusPercentX | 0.6 -> 0.72 |

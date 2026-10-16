@@ -5,7 +5,7 @@ A data-only balance pak for **Dead by Daylight 6.7.x (Eefernal Fog)**. Every cha
 | What | How many |
 |---|---|
 | Perks buffed | **163** |
-| Killer power values buffed | **92** in 28 killer tables (incl. The Ghoul / K29) |
+| Killer power values buffed | **92** in 28 killer tables (incl. The Mastermind / K29) |
 | Killer add-ons buffed | **179** |
 | Survivor item add-ons buffed | **32** |
 | Survivor items buffed | **25** |
@@ -14,7 +14,7 @@ Every changed perk, add-on and item has its description updated to the new numbe
 
 ## Install
 
-1. Download `Perktweaks-1.0.0.zip` from the [latest release](../../releases/latest) and unzip it. It contains `pakchunk9999(perktweaks)-WindowsNoEditor.pak`, the file name must stay exactly like that.
+1. Download `pakchunk9999(perktweaks)-WindowsNoEditor.pak` from the [latest release](../../releases/latest).
 2. Close the game and copy the file into `DeadByDaylight\Content\Paks\`.
 3. Start the game. To uninstall, delete the file.
 
@@ -26,7 +26,7 @@ The name matters: the game loads paks whose names sort higher first, and `pakchu
 - **Killer powers:** up to four values per killer in the killer's power data table: power cooldowns and charge times go down 20%, speeds, ranges and capacities go up. **Basic attack and attack cooldowns are not touched.**
 - **Add-ons:** helpful effects are 20% stronger, drawbacks 20% weaker (whole numbers move by one).
 - **Survivor items:** more charges (med-kits, toolboxes, flashlights, keys) and stronger action speed bonuses.
-- **The Ghoul (K29):** window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s, Bound charge time 1.5 s -> 1.4 s, plus stronger add-ons (R.P.D. Shoulder Walkie, Unicorn Medallion, Leather Gloves, Lion Medallion, Green Herb, Chalice, Egg ...). The **Iridescent Uroboros Vial** no longer exposes survivors; instead you start the trial with +1 extra Virulent Bound (3 in total).
+- **The Mastermind (K29, Albert Wesker):** window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s, Bound charge time 1.5 s -> 1.4 s, plus stronger add-ons (R.P.D. Shoulder Walkie, Unicorn Medallion, Leather Gloves, Lion Medallion, Green Herb, Chalice, Egg ...). The **Iridescent Uroboros Vial** no longer exposes survivors; instead you start the trial with +1 extra Virulent Bound (3 in total).
 
 ## Not changed / limits
 
@@ -216,7 +216,7 @@ Perks named like `K29P02` / `S36P02` are the game's internal names for perks I c
 
 ## Killer powers
 
-Values in each killer's power data table (all buffs). The Ghoul (K29) changes replace what the ASI used to apply.
+Values in each killer's power data table (all buffs). The Mastermind (K29, Albert Wesker) is listed here too.
 
 | Killer | Value | Change |
 |---|---|---|
@@ -303,8 +303,8 @@ Values in each killer's power data table (all buffs). The Ghoul (K29) changes re
 | Doctor | ShockTherapy_Range | 1070 -> 1284 |
 | Doctor | StaticBlast_Cooldown | 60 -> 48 |
 | HillBilly | ChainsawHeatMaxCharge | 100 -> 120 |
-| K29 (The Ghoul) | RushChargeTime | 1.5 -> 1.4 (Bound charge time 1.5 s -> 1.4 s) |
-| K29 (The Ghoul) | RushVaultCooldownDuration | 1.5 -> 1.3 (Window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s) |
+| K29 (The Mastermind) | RushChargeTime | 1.5 -> 1.4 (Bound charge time 1.5 s -> 1.4 s) |
+| K29 (The Mastermind) | RushVaultCooldownDuration | 1.5 -> 1.3 (Window / pallet vault cooldown after a Bound 1.5 s -> 1.3 s) |
 | Shape | BaseStalkMaxRange | 3985 -> 4782 |
 | Shape | BaseStalkRateAtMaxRange | 0.1 -> 0.12 |
 | Shape | KillerSight_ScreenVisibilityZoneRadiusPercentX | 0.6 -> 0.72 |
